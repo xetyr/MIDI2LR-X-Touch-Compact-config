@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings>
+
+    
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- PLAN
+
+1.1 PROFILS & NAVIGATION
+1.2 ETOILES ET DRAPEAUX
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+
+    
+<!-- 1.1 PROFILS & NAVIGATION -->
+
+     <!-- Profils -->
+  
+	  <setting channel="1" note="32" command_string="profile1"/> <!-- 1.Lib-->
+	  <setting channel="1" note="33" command_string="profile2"/> <!-- 2.Dev-->
+	  <setting channel="1" note="34" command_string="profile3"/> <!-- 3.Lum/Sat-->
+	  <setting channel="1" note="35" command_string="profile4"/> <!-- 4.Sat/Teinte -->
+	  <setting channel="1" note="36" command_string="profile5"/> <!-- 5.ColorGrading -->
+	  <!--
+      <setting channel="1" note="37" command_string="profile6"/> 
+	  <setting channel="1" note="38" command_string="profile7"/> 
+	  <setting channel="1" note="39" command_string="profile8"/>
+      -->
+  
+	  <setting channel="1" note="87" command_string="profile1"/> <!-- 1.Lib-->
+	  <setting channel="1" note="88" command_string="profile2"/> <!-- 2.Dev-->
+	  <setting channel="1" note="89" command_string="profile3"/> <!-- 3.Lum/Sat-->
+	  <setting channel="1" note="90" command_string="profile4"/> <!-- 4.Sat/Teinte -->
+	  <setting channel="1" note="91" command_string="profile5"/> <!-- 5.ColorGrading -->
+      <!--
+	  <setting channel="1" note="92" command_string="profile6"/>
+	  <setting channel="1" note="93" command_string="profile7"/
+	  <!-- <setting channel="1" note="39" command_string="profile8"/>
+      -->
+    
+    <!-- NAVIGATION et NOTATION  -->
+
+    <setting channel="1" controller="25" command_string="IncreaseDecreaseRating"/>
+    <setting channel="1" controller="52" command_string="IncreaseDecreaseRating"/>
+    <setting channel="1" note="15" command_string="SetRating0"/>
+    <setting channel="1" note="70" command_string="SetRating0"/>
+    <setting channel="1" controller="24" command_string="RedoUndo"/>
+    <setting channel="1" controller="51" command_string="RedoUndo"/>
+    
+    <setting channel="1" note="50" command_string="Next"/>
+    <setting channel="1" note="105" command_string="Next"/>
+    <setting channel="1" note="49" command_string="Prev"/>
+    <setting channel="1" note="104" command_string="Prev"/>
+    <setting channel="1" note="51" command_string="LRCopy"/>
+    <setting channel="1" note="106" command_string="LRCopy"/>
+    <setting channel="1" note="52" command_string="LRPaste"/>
+    <setting channel="1" note="107" command_string="LRPaste"/>
+    <setting channel="1" note="53" command_string="ShoFullHidePanels"/>
+    <setting channel="1" note="108" command_string="ShoFullHidePanels"/>
+    <setting channel="1" note="54" command_string="ToggleZoomOffOn"/>
+    <setting channel="1" note="109" command_string="ToggleZoomOffOn"/>
+
+   
+    
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+    
+    
+<!-- 1.2 ETOILES ET DRAPEAUX -->
+    
+    <setting channel="1" note="40" command_string="SetRating1"/>
+    <setting channel="1" note="41" command_string="SetRating2"/>
+    <setting channel="1" note="42" command_string="SetRating3"/>
+    <setting channel="1" note="43" command_string="SetRating4"/>
+    <setting channel="1" note="44" command_string="SetRating5"/>
+    <setting channel="1" note="45" command_string="Pick"/>
+    <setting channel="1" note="46" command_string="RemoveFlag"/>
+    <setting channel="1" note="47" command_string="Reject"/>
+    
+    <setting channel="1" note="24" command_string="ToggleRed"/>
+    <setting channel="1" note="25" command_string="ToggleYellow"/>
+    <setting channel="1" note="26" command_string="ToggleGreen"/>
+    <setting channel="1" note="27" command_string="ToggleBlue"/>
+    <setting channel="1" note="28" command_string="TogglePurple"/>
+    <setting channel="1" note="29" command_string="ColorLabelNone"/>
+    
+    
+    
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->    
+    </settings>

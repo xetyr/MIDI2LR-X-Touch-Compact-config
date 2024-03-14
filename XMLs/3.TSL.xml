@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings>
+
+    
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- PLAN
+
+3.1 PROFILS & NAVIGATION
+3.2 FADERS
+3.3 KNOBS HAUT
+3.4 Boutons L1 & L2
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+    
+    
+<!-- 3.1 PROFILS & NAVIGATION -->
+
+     <!-- Profils -->
+  
+	  <setting channel="1" note="32" command_string="profile1"/> <!-- 1.Lib-->
+	  <setting channel="1" note="33" command_string="profile2"/> <!-- 2.Dev-->
+	  <setting channel="1" note="34" command_string="profile3"/> <!-- 3.Lum/Sat-->
+	  <setting channel="1" note="35" command_string="profile4"/> <!-- 4.Sat/Teinte -->
+	  <setting channel="1" note="36" command_string="profile5"/> <!-- 5.ColorGrading -->
+	  <!--
+      <setting channel="1" note="37" command_string="profile6"/> 
+	  <setting channel="1" note="38" command_string="profile7"/> 
+	  <setting channel="1" note="39" command_string="profile8"/>
+      -->
+  
+	  <setting channel="1" note="87" command_string="profile1"/> <!-- 1.Lib-->
+	  <setting channel="1" note="88" command_string="profile2"/> <!-- 2.Dev-->
+	  <setting channel="1" note="89" command_string="profile3"/> <!-- 3.Lum/Sat-->
+	  <setting channel="1" note="90" command_string="profile4"/> <!-- 4.Sat/Teinte -->
+	  <setting channel="1" note="91" command_string="profile5"/> <!-- 5.ColorGrading -->
+      <!--
+	  <setting channel="1" note="92" command_string="profile6"/>
+	  <setting channel="1" note="93" command_string="profile7"/
+	  <!-- <setting channel="1" note="39" command_string="profile8"/>
+      -->
+    
+    <!-- NAVIGATION et NOTATION  -->
+
+    <setting channel="1" controller="25" command_string="IncreaseDecreaseRating"/>
+    <setting channel="1" controller="52" command_string="IncreaseDecreaseRating"/>
+    <setting channel="1" note="15" command_string="SetRating0"/>
+    <setting channel="1" note="70" command_string="SetRating0"/>
+    <setting channel="1" controller="24" command_string="RedoUndo"/>
+    <setting channel="1" controller="51" command_string="RedoUndo"/>
+    
+    <setting channel="1" note="50" command_string="Next"/>
+    <setting channel="1" note="105" command_string="Next"/>
+    <setting channel="1" note="49" command_string="Prev"/>
+    <setting channel="1" note="104" command_string="Prev"/>
+    <setting channel="1" note="51" command_string="LRCopy"/>
+    <setting channel="1" note="106" command_string="LRCopy"/>
+    <setting channel="1" note="52" command_string="LRPaste"/>
+    <setting channel="1" note="107" command_string="LRPaste"/>
+    <setting channel="1" note="53" command_string="ShoFullHidePanels"/>
+    <setting channel="1" note="108" command_string="ShoFullHidePanels"/>
+    <setting channel="1" note="54" command_string="ToggleZoomOffOn"/>
+    <setting channel="1" note="109" command_string="ToggleZoomOffOn"/>
+    
+    
+    
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+
+    
+<!-- 3.2 FADERS -->
+<!-- A : Lum/Sat -->
+
+    <setting channel="1" controller="1" command_string="LuminanceAdjustmentRed"/>
+    <setting channel="1" controller="2" command_string="LuminanceAdjustmentOrange"/>
+    <setting channel="1" controller="3" command_string="LuminanceAdjustmentYellow"/>
+    <setting channel="1" controller="4" command_string="LuminanceAdjustmentGreen"/>
+    <setting channel="1" controller="5" command_string="LuminanceAdjustmentAqua"/>
+    <setting channel="1" controller="6" command_string="LuminanceAdjustmentBlue"/>
+    <setting channel="1" controller="7" command_string="LuminanceAdjustmentPurple"/>
+    <setting channel="1" controller="8" command_string="LuminanceAdjustmentMagenta"/>
+
+    <setting channel="1" note="40" command_string="ResetLuminanceAdjustmentRed"/>
+    <setting channel="1" note="41" command_string="ResetLuminanceAdjustmentOrange"/>
+    <setting channel="1" note="42" command_string="ResetLuminanceAdjustmentYellow"/>
+    <setting channel="1" note="43" command_string="ResetLuminanceAdjustmentGreen"/>
+    <setting channel="1" note="44" command_string="ResetLuminanceAdjustmentAqua"/>
+    <setting channel="1" note="45" command_string="ResetLuminanceAdjustmentBlue"/>
+    <setting channel="1" note="46" command_string="ResetLuminanceAdjustmentPurple"/>
+    <setting channel="1" note="47" command_string="ResetLuminanceAdjustmentMagenta"/>
+
+ <!-- B : Sat/Teinte -->
+    
+    <setting channel="1" controller="28" command_string="SaturationAdjustmentRed"/>
+    <setting channel="1" controller="29" command_string="SaturationAdjustmentOrange"/>
+    <setting channel="1" controller="30" command_string="SaturationAdjustmentYellow"/>
+    <setting channel="1" controller="31" command_string="SaturationAdjustmentGreen"/>
+    <setting channel="1" controller="32" command_string="SaturationAdjustmentAqua"/>
+    <setting channel="1" controller="33" command_string="SaturationAdjustmentBlue"/>
+    <setting channel="1" controller="34" command_string="SaturationAdjustmentPurple"/>
+    <setting channel="1" controller="35" command_string="SaturationAdjustmentMagenta"/>
+       
+    <setting channel="1" note="95" command_string="ResetSaturationAdjustmentRed"/>
+    <setting channel="1" note="96" command_string="ResetSaturationAdjustmentOrange"/>
+    <setting channel="1" note="97" command_string="ResetSaturationAdjustmentYellow"/>
+    <setting channel="1" note="98" command_string="ResetSaturationAdjustmentGreen"/>
+    <setting channel="1" note="99" command_string="ResetSaturationAdjustmentAqua"/>
+    <setting channel="1" note="100" command_string="ResetSaturationAdjustmentBlue"/>
+    <setting channel="1" note="101" command_string="ResetSaturationAdjustmentPurple"/>
+    <setting channel="1" note="102" command_string="ResetSaturationAdjustmentMagenta"/>
+    
+    
+    
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+    
+    
+<!-- 3.3 KNOBS HAUT -->
+    <!-- A : Lum/Sat -->
+    
+    <setting channel="1" controller="10" command_string="SaturationAdjustmentRed"/>
+    <setting channel="1" controller="11" command_string="SaturationAdjustmentOrange"/>
+    <setting channel="1" controller="12" command_string="SaturationAdjustmentYellow"/>
+    <setting channel="1" controller="13" command_string="SaturationAdjustmentGreen"/>
+    <setting channel="1" controller="14" command_string="SaturationAdjustmentAqua"/>
+    <setting channel="1" controller="15" command_string="SaturationAdjustmentBlue"/>
+    <setting channel="1" controller="16" command_string="SaturationAdjustmentPurple"/>
+    <setting channel="1" controller="17" command_string="SaturationAdjustmentMagenta"/>
+    
+    <setting channel="1" note="0" command_string="ResetSaturationAdjustmentRed"/>
+    <setting channel="1" note="1" command_string="ResetSaturationAdjustmentOrange"/>
+    <setting channel="1" note="2" command_string="ResetSaturationAdjustmentYellow"/>
+    <setting channel="1" note="3" command_string="ResetSaturationAdjustmentGreen"/>
+    <setting channel="1" note="4" command_string="ResetSaturationAdjustmentAqua"/>
+    <setting channel="1" note="5" command_string="ResetSaturationAdjustmentBlue"/>
+    <setting channel="1" note="6" command_string="ResetSaturationAdjustmentPurple"/>
+    <setting channel="1" note="7" command_string="ResetSaturationAdjustmentMagenta"/>
+    
+    <!-- B : Sat/Teinte -->
+    
+    <setting channel="1" controller="37" command_string="HueAdjustmentRed"/>
+    <setting channel="1" controller="38" command_string="HueAdjustmentOrange"/>
+    <setting channel="1" controller="39" command_string="HueAdjustmentYellow"/>
+    <setting channel="1" controller="40" command_string="HueAdjustmentGreen"/>
+    <setting channel="1" controller="41" command_string="HueAdjustmentAqua"/>
+    <setting channel="1" controller="42" command_string="HueAdjustmentBlue"/>
+    <setting channel="1" controller="43" command_string="HueAdjustmentPurple"/>
+    <setting channel="1" controller="44" command_string="HueAdjustmentMagenta"/>
+    
+    <setting channel="1" note="55" command_string="ResetHueAdjustmentRed"/>
+    <setting channel="1" note="56" command_string="ResetHueAdjustmentOrange"/>
+    <setting channel="1" note="57" command_string="ResetHueAdjustmentYellow"/>
+    <setting channel="1" note="58" command_string="ResetHueAdjustmentGreen"/>
+    <setting channel="1" note="59" command_string="ResetHueAdjustmentAqua"/>
+    <setting channel="1" note="60" command_string="ResetHueAdjustmentBlue"/>
+    <setting channel="1" note="61" command_string="ResetHueAdjustmentPurple"/>
+    <setting channel="1" note="62" command_string="ResetHueAdjustmentMagenta"/>
+    
+    
+    
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+    
+    
+<!-- 3.4 BOUTONS L1 & L2  -->
+    <!-- A : Lum/Sat  -->
+    <setting channel="1" note="16" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="17" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="18" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="19" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="20" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="21" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="22" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="23" command_string="RevealPanelMixer"/>
+
+    <!-- B : Sat/Teinte  -->
+    <setting channel="1" note="71" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="72" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="73" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="74" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="75" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="76" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="77" command_string="RevealPanelMixer"/>
+    <setting channel="1" note="78" command_string="RevealPanelMixer"/>
+    
+    
+    
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    </settings>
